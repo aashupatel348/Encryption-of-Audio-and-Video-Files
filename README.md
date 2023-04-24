@@ -1,14 +1,14 @@
 # Encryption-of-Audio-and-Video-Files
 
 Install ffmpeg in your system
-link of ffmpeg:- https://ffmpeg.org/download.html
+<p>link of ffmpeg:- https://ffmpeg.org/download.html</p>
 
 install python 
-https://www.python.org/downloads/
+<p>https://www.python.org/downloads/</p>
 
-import the library 
-os
-subprocess
-tkinter
-tkinter.filedialog
-tkinter.messagebox
+import the library :-
+<p>os</p>
+<p>subprocess</p>
+<p>tkinter</p>
+<p>tkinter.filedialog</p>
+<p>tkinter.messagebox</p>
