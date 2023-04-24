@@ -5,11 +5,11 @@ import tkinter.filedialog
 file_path = tkinter.filedialog.askopenfilename()
 filename = str(file_path)
 
-if filename.endswith(".mp4"):
+if filename.endswith(".mp4") or filename.endswith(".mkv"):
     command = f"ffplay {filename} -decryption_key 76a6c65c5ea762046bd749a2e632ccbb"
 
 
-elif filename.endswith(".m3u8"):
+elif filename.endswith(".mp3") or filename.endswith(".wav"):
     command = f"ffmpeg -allowed_extensions ALL -i {filename} -codec:a copy -vcodec copy -encryption_scheme cbc -encryption_key 76a6c65c5ea762046bd749a2e632ccbb -encryption_iv a7e61c373e219033c21091fa607bf3b8 outputfile.mp3"
 
 else:
